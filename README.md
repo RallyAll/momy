@@ -1,5 +1,4 @@
 # Momy
-- test
 
 [Momy](https://goo.gl/maps/s9hXxKyoACv) is a simple cli tool for replicating MongoDB to MySQL in realtime.
 
@@ -130,6 +129,11 @@ or
 ```bash
 $ forever momy --config momyfile.json
 ```
+
+## RallyAll TODO
+
+Support tailer.sync() on initial import so we don't have to run
+momy --import. 
 
 ## License
 
